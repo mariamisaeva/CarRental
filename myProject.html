@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Services</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="stylecss.css">
+    <!--icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--1st page--><!--HomePage-->
+    <!--background-vid-->
+    <div id="video-container" class="background-video">
+        <video autoplay loop muted>
+            <source src="vid/intro.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!--header (logo,nav,search)-->
+    <header id="header">
+        <div class="nav container"> <!--.nav .container-->
+
+            <!--make logo-->
+            <a href="#" class="logo"><span>SuperCars</span><img
+                    src="https://static.vecteezy.com/system/resources/previews/013/923/543/original/blue-car-logo-png.png"
+                    alt="logo"></a>
+            <!--Menu bar-->
+            <ul class="nav-bar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <!--   <li><a href="#">Service</a></li>-->
+                <li><a href="#mainInfo">About</a></li>
+                <li><a href="#midInfo">Contact</a></li>
+            </ul>
+            <!--search-->
+            <div id="search-bx">
+                <input type="search" name="" id="box" placeholder="Search here...">
+                <button id="btn"><img
+                        src="https://www.nicepng.com/png/detail/853-8539483_png-file-search-button-icon-png.png"
+                        alt="icon"></button>
+            </div>
+            <!--mailIcon-->
+            <i class='bx bx-envelope' id="envelope"></i>
+            <!--dropdownElement-->
+            <div class="dropdown">
+                <!--MenuIcon-->
+                <i class='bx bx-menu' id="m-icon"></i>
+                <div class="dropdownMenu">
+
+                    <img src="pics/menuCar.jpeg">
+                    <br><br>
+                    <hr>
+                    <a href="#brands">
+                        <h2>Choose a Car</h2>
+                    </a>
+                    <a href="#cars">
+                        <h2>Pre-Order</h2>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/Policy">
+                        <h2>Policy</h2>
+                    </a>
+                    <a href="#sideInfo">
+                        <h2>FAQ's</h2>
+                    </a>
+                    <a href="#midInfo">
+                        <h2>Contact us</h2>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Home page-content-->
+    <div class="content">
+        <h1>Luxury <span>SuperCars</span><br>Rental #1<br><br></h1>
+        <a href="#title">Discover Now</a>
+    </div>
+    <!--**********************DONE(a)**************************-->
+    <!--2nd--><!--Brands-logos-->
+    <div id="title">
+        <h2>Brands</h2>
+    </div>
+    <!--Draggable brands slider-->
+    <div class="wrapper">
+        <i id="left" class='bx bx-chevron-left'></i> <!--leftArrow-->
+        <div class="brands" id="brands">
+            <a href="#bently"><img src="pics/logo1.svg" alt="img"></a>
+            <a href="#bmw"><img src="pics/logo2.png" alt="img"></a>
+            <a href="#ferr"><img src="pics/logo3.png" alt="img"></a>
+            <a href="#maserati"><img src="pics/logo4.png" alt="img"></a>
+            <a href="#lambo"><img src="pics/logo5.png" alt="img"></a>
+            <a href="#mc"><img src="pics/logo6.png" alt="img"></a>
+            <a href="#merc"><img src="pics/logo7.png" alt="img"></a>
+            <a href="#por"><img src="pics/logo8.png" alt="img"></a>
+            <a href="#rover"><img src="pics/logo9.webp" alt="img"></a>
+            <a href="#rolls"><img src="pics/logo10.png" alt="img"></a>
+            <a href="#cadi"><img src="pics/logo11.webp" alt="img"></a>
+            <a href="#cadi"><img src="pics/logo12.webp" alt="img"></a><!--didn't add audi!!-->
+            <a href="#cadi"><img src="pics/logo13.png" alt="img"></a><!--and astonmartin!!-->
+        </div>
+        <i id="right" class='bx bx-chevron-right'></i><!--rightArrow-->
+    </div>
+    <!--**********************DONE(b)**************************-->
+    <!--3rd--><!--cars-->
+    <section class="car" id="cars">
+        <div class="car-header">
+            <span>All Cars</span>
+            <h2>Latest Car Rental Offers</h2>
+            <p>Choose among cars with in-demand driving features and high mileage,<br>And rent a car at the best price.
+                <br>Updated seasonally!
+            </p>
+        </div>
+
+        <!--carsContainer-->
+        <div class="cars-container" id="cars-container">
+            <!--carBox 1-->
+            <div class="box">
+                <img src="pics/car1.jpeg" alt="car">
+                <h3>Porsche 911 GT3 2022</h3>
+                <span>$1000 /Per Day</span>
+                <i class='bx bxs-star' id="star">(3000 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 2-->
+            <div class="box" id="merc">
+                <img src="pics/car2.webp" alt="car">
+                <h3>Mercedes Benz G63 AMG</h3>
+                <span>$850 /Per Day</span>
+                <i class='bx bxs-star' id="star">(1200 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 3-->
+            <div class="box" id="mc">
+                <img src="pics/car3.jpeg" alt="car">
+                <h3>McLaren 570S</h3>
+                <span>$790 /Per Day</span>
+                <i class='bx bxs-star' id="star">(1001 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 4-->
+            <div class="box" id="bmw">
+                <img src="pics/car4.jpeg" alt="car">
+                <h3>BMW M3 Competition</h3>
+                <span>$600 /Per Day</span>
+                <i class='bx bxs-star' id="star">(10653 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 5 -->
+            <div class="box" id="maserati">
+                <img src="pics/car5.jpeg" alt="car">
+                <h3>Maserati MC20</h3>
+                <span>$1200 /Per Day</span>
+                <i class='bx bxs-star' id="star">(1065 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 6-->
+            <div class="box" id="lambo">
+                <img src="pics/car6.webp" alt="car">
+                <h3>Lamborghini Huracan</h3>
+                <span>$1790 /Per Day</span>
+                <i class='bx bxs-star' id="star">(693 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 7-->
+            <div class="box" id="rolls">
+                <img src="pics/car7.webp" alt="car">
+                <h3>Rolls Royce Cullinan</h3>
+                <span>$2000 /Per Day</span>
+                <i class='bx bxs-star' id="star">(965 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 8-->
+            <div class="box" id="bently">
+                <img src="pics/car8.webp" alt="car">
+                <h3>Bentley Continental GTC</h3>
+                <span>$1045 /Per Day</span>
+                <i class='bx bxs-star' id="star">(10 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 9-->
+            <div class="box" id="ferr">
+                <img src="pics/car9.webp" alt="car">
+                <h3>Ferrari SF90 Stradale</h3>
+                <span>$5000 /Per Day</span>
+                <i class='bx bxs-star' id="star">(754 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 10-->
+            <div class="box" id="por">
+                <img src="pics/car10.webp" alt="car">
+                <h3>Porsche Macan Sports</h3>
+                <span>$600 /Per Day</span>
+                <i class='bx bxs-star' id="star">(11896 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 11-->
+            <div class="box" id="rover">
+                <img src="pics/car11.webp" alt="car">
+                <h3>Range Rover SVR 2021</h3>
+                <span>$800 /Per Day</span>
+                <i class='bx bxs-star' id="star">(9541 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+            <!--carBox 12-->
+            <div class="box" id="cadi">
+                <img src="pics/car12.webp" alt="car">
+                <h3>Cadillac Escalade Sports</h3>
+                <span>$700 /Per day</span>
+                <i class='bx bxs-star' id="star">(56733 reviews)</i>
+                <a href="bookNow.html" class="book">Book Now</a>
+                <a href="moreDetails.html" class="details">More Details >></a>
+            </div>
+        </div>
+    </section>
+    <!--**********************DONE(c)**************************-->
+    <!--4th-->
+    <!--#floatingBtn-->
+    <a href="#">
+        <button id="floatingBtn">
+            <i class='bx bxs-up-arrow-circle' id="floating"></i>
+        </button></a>
+    <!--5th page-->
+
+    <div class="info">
+        <!--main info-->
+        <section id="mainInfo">
+            <h1>About</h1>
+            <p>Our mission is to provide the best luxury car rentals and services solutions, with a focus on exclusivity
+                for your holiday or business experience.
+            </p>
+        </section>
+
+        <!--mid info-->
+        <section id="midInfo">
+            <h1>Contact us</h1>
+
+
+
+            Advertise With Us
+            <p> +376256246253
+                <br>sales@someEmail.com
+            </p>
+            <i class='bx bxl-whatsapp' id="wa"></i>
+            <i class='bx bxl-instagram' id="insta"></i>
+            <i class='bx bxl-facebook' id="fb"></i>
+            <i class='bx bxl-twitter' id="twt"></i>
+        </section>
+
+        <!--side info-->
+        <section id="sideInfo">
+            <h2>FAQ's</h2>
+            <p>How can I rent a car? Select
+                your desired location, browse through the available car options, compare prices and make a reservation.
+                <a href="https://policies.google.com/faq?hl=en-US">Read More</a>
+            </p>
+        </section>
+
+    </div>
+
+    <!--The footer-->
+    <footer id="main-footer">
+        <p>copyright &copy; 2023 My-Website</p>
+    </footer>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>

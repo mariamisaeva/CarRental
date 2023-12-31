@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Now</title>
+    <!--icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            line-height: 1.5;
+            margin: 0 auto;
+            background: linear-gradient(180deg, rgb(0, 16, 21), #2d9097);
+        }
+
+        .container {
+            display: flex;
+            max-width: 900px;
+            width: 100%;
+            padding: 25px;
+            border-radius: 30px;
+            background: rgba(112, 220, 200, 0.25);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container .title {
+            /*display: flex;
+            flex-direction: column;
+            align-items: center;*/
+
+            color: rgb(15, 12, 1);
+            font-size: 20px;
+            padding-bottom: 20px;
+            padding-right: 90px;
+        }
+
+        label {
+            /* display: flex;
+            align-items: center;*/
+            position: relative;
+            top: 35px;
+            right: 55px;
+            margin-right: 100px;
+            font-size: 1.125rem;
+            margin: -7px auto 0.5rem auto;
+        }
+
+        input,
+        button,
+        select,
+        textarea {
+            margin-left: 40px;
+            padding-right: 5px;
+            padding-left: 10px;
+            box-sizing: border-box;
+            width: 500px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-radius: 7px;
+        }
+
+        #message {
+            margin-bottom: 50px;
+        }
+
+        button {
+            background-color: #3e219d;
+            color: aquamarine;
+            font-weight: 700;
+        }
+
+        button:hover {
+            color: yellow;
+            font-size: 18px;
+        }
+
+
+        @media screen and (max-width:940px) {
+            .container .title {
+                display: none;
+            }
+
+            label {
+                display: flex;
+                margin: auto;
+                margin-left: 40px;
+                position: relative;
+                right: 90px;
+            }
+
+            form {
+                position: relative;
+                left: 60px;
+            }
+
+        }
+
+        @media screen and (max-width:700px) {
+            .container .title {
+                display: none;
+            }
+
+            label {
+                display: flex;
+                margin: 0;
+                margin-left: 40px;
+                position: relative;
+                right: 90px;
+            }
+
+            form {
+                position: relative;
+                left: 60px;
+            }
+        }
+
+        @media screen and (max-width:670px) {
+            .container .title {
+                display: none;
+            }
+
+            label {
+                display: flex;
+                margin: 0;
+                margin-left: 80px;
+                position: relative;
+                right: 90px;
+            }
+
+            form {
+                position: relative;
+                left: 0px;
+
+            }
+
+            input,
+            button,
+            select,
+            textarea {
+                margin-left: 70px;
+                margin-right: 100px;
+                padding-right: 5px;
+                padding-left: 10px;
+                box-sizing: border-box;
+                width: 300px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border-radius: 7px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Reservation</h1>
+            <p> <br><i class='bx bxs-car'></i>
+                <br><i class='bx bxs-car'></i> <i class='bx bxs-car'></i>
+                <br><i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i>
+                <br><i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i
+                    class='bx bxs-car'></i><br>
+                <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i
+                    class='bx bxs-car'></i> <i class='bx bxs-car'></i> <br><i class='bx bxs-car'></i> <i
+                    class='bx bxs-car'></i> <i class='bx bxs-car'></i>
+                <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <br><i
+                    class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i
+                    class='bx bxs-car'></i><i class='bx bxs-car'></i>
+                <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <br><i class='bx bxs-car'></i><i
+                    class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i
+                    class='bx bxs-car'></i> <i class='bx bxs-car'></i><br>
+                <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i
+                    class='bx bxs-car'></i> <i class='bx bxs-car'></i><br>
+                <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i
+                    class='bx bxs-car'></i><br>
+                <i class='bx bxs-car'></i> <i class='bx bxs-car'></i> <i class='bx bxs-car'></i><br>
+                <i class='bx bxs-car'></i> <i class='bx bxs-car'></i><br>
+                <i class='bx bxs-car'></i><br>
+            </p>
+        </div>
+
+        <form>
+            <label for="name"> Name :</label>
+            <input type="text" name="name" id="name" placeholder="John Smith" required>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="John-Smith@hotmail.com" required>
+            <label for="phone">Phone :</label>
+            <input type="text" name="phone" id="phone" placeholder="+3178657658" required>
+            <br><br><br>
+            <label for="date">Date :</label>
+            <input type="date" name="date" id="date" required>
+
+            <label for="time">Time :</label>
+            <input type="time" name="time" id="time" required>
+
+            <label for="car">Car :</label>
+            <select name="car" id="car" required>
+                <option value="0">Select Car</option>
+                <option value="1">Lamborghini</option>
+                <option value="2">Rolls Royce</option>
+                <option value="3">Bentley</option>
+                <option value="4">Porsche</option>
+                <option value="5">Mercedes</option>
+                <option value="6">McLaren</option>
+                <option value="7">BMW</option>
+                <option value="8">Maserati</option>
+            </select>
+
+            <label for="model">Model :</label>
+            <input type="text" name="model" id="model" required>
+
+            <label for="service">Service :</label>
+            <select name="service" id="service" required>
+                <option value="0">Select Service</option>
+                <option value="1">Without Driver</option>
+                <option value="2">With Driver</option>
+            </select>
+
+            <label for="message">Message :</label>
+            <textarea name="message" id="message" cols="30" rows="4"></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+
+    <script>
+        let button = document.querySelector('button');
+        button.addEventListener('click', function () {
+            window.location.href = 'https://media.tenor.com/g3zh_DFacRcAAAAC/thanks-thank-you.gif';
+        }) 
+    </script>
+</body>
+
+</html>
