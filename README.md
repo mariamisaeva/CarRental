@@ -9,4 +9,7 @@ A car rental website (first project)
 
 
 
+<img width="1659" alt="Screenshot 2024-06-22 at 19 05 19" src="https://github.com/mariamisaeva/CarRental/assets/142991068/315192cd-0ff4-46ed-8baa-a8525f4fd344">
+
+
 Live Demo: https://car-rental-online.netlify.app/
